@@ -1,0 +1,55 @@
+*{
+    padding : 0 ;
+    margin : 0 ;
+    box-sizing: border-box;
+    color :black;
+    background-color: bisque;
+
+}
+
+.main{
+    height : 100% ;
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 2.5rem;
+    color :black ;
+    text-align: center;
+    margin-top: 20px ;
+}
+
+#end-date{
+    font-size: 2.5rem;
+    color :black ;
+    text-align: center;
+    margin-top: 20px ;
+}
+
+
+.col{
+    display: flex ;
+    height : 100px;
+    width : 100% ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+input{
+    background-color: white;
+    display : block ;
+    border-radius: 15%;
+    box-shadow: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    width : 50px;
+    height : 60px ;
+}
